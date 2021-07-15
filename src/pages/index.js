@@ -1,28 +1,42 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
+// import Jumbotron from 'react-bootstrap/Jumbotron';
+import BootstrapCarousel from '../components/bootstrapCarousel'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+
 const IndexPage = () => (
+  
   <Layout>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossOrigin="anonymous"
+    />
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <div style={{position: 'absolute', textalign: 'center' }}>
+      <h1 style={{color: `deeppink`, margin: 'auto', verticalAlign: 'middle'}}>Benvenuta Sofia!</h1>
+    </div>
+    
+    {/* <Container className="p-3">
+      <Jumbotron>
+        <h1 className="header" style={{color: `deeppink`}}>Benvenuta Sofia!</h1>
+      </Jumbotron>
+    </Container> */}
     <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
+      src="../images/benvenuta-sofia.jpeg"
+      width={1600}
+      quality={100}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
+      alt="Benvenuta-Sofia"
       style={{ marginBottom: `1.45rem` }}
     />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <BootstrapCarousel></BootstrapCarousel>    
+    <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin="anonymous"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossOrigin="anonymous"></script>
+    <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossOrigin="anonymous"></script>
   </Layout>
 )
 
