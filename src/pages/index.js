@@ -16,15 +16,6 @@ const IndexPage = () => (
       crossOrigin="anonymous"
     />
     <Seo title="Home" />
-    <div style={{position: 'absolute', textalign: 'center' }}>
-      <h1 style={{color: `deeppink`, margin: 'auto', verticalAlign: 'middle'}}>Benvenuta Sofia!</h1>
-    </div>
-    
-    {/* <Container className="p-3">
-      <Jumbotron>
-        <h1 className="header" style={{color: `deeppink`}}>Benvenuta Sofia!</h1>
-      </Jumbotron>
-    </Container> */}
     <StaticImage
       src="../images/benvenuta-sofia.jpeg"
       width={1600}
