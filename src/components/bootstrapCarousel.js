@@ -10,31 +10,51 @@ export class BootstrapCarousel extends Component {
                         <Carousel nextLabel={''} prevLabel={''}>
                             <Carousel.Item>
                             <StaticImage
-                                src="../images/benvenuta-sofia.jpeg"
-                                width={800}
+                                src="../images/messages/ivan.PNG"
+                                width={400}
                                 quality={100}
                                 formats={["AUTO", "WEBP", "AVIF"]}
-                                alt="Benvenuta-Sofia"
+                                alt="ivan"
                                 style={{ marginBottom: `1.45rem` }}
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                             <StaticImage
-                                src="../images/benvenuta-sofia.jpeg"
-                                width={800}
+                                src="../images/messages/lavinia.PNG"
+                                width={400}
                                 quality={100}
                                 formats={["AUTO", "WEBP", "AVIF"]}
-                                alt="Benvenuta-Sofia"
+                                alt="lavinia"
                                 style={{ marginBottom: `1.45rem` }}
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                             <StaticImage
-                                src="../images/benvenuta-sofia.jpeg"
-                                width={800}
+                                src="../images/messages/marco.PNG"
+                                width={400}
                                 quality={100}
                                 formats={["AUTO", "WEBP", "AVIF"]}
-                                alt="Benvenuta-Sofia"
+                                alt="marco"
+                                style={{ marginBottom: `1.45rem` }}
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                            <StaticImage
+                                src="../images/messages/enrico.PNG"
+                                width={400}
+                                quality={100}
+                                formats={["AUTO", "WEBP", "AVIF"]}
+                                alt="enrico"
+                                style={{ marginBottom: `1.45rem` }}
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                            <StaticImage
+                                src="../images/messages/maurizio.PNG"
+                                width={400}
+                                quality={100}
+                                formats={["AUTO", "WEBP", "AVIF"]}
+                                alt="maurizio"
                                 style={{ marginBottom: `1.45rem` }}
                                 />
                             </Carousel.Item>
