@@ -1,7 +1,7 @@
 import React, { Component } from 'react'  
 import 'bootstrap/dist/css/bootstrap.css'
 import Carousel from 'react-bootstrap/Carousel'
-import { StaticImage } from "gatsby-plugin-image"
+import Holderjs from 'holderjs'
 
 export class BootstrapCarousel extends Component {  
         render() { 
@@ -45,6 +45,17 @@ export class BootstrapCarousel extends Component {
                                 <img
                                 className="d-block w-100"
                                 src="holder.js/800x300?text= &bg=cc6699&fg=ffffff"
+                                alt="Giulia"
+                                />
+                                <Carousel.Caption>
+                                    <h3>Giulia Pau</h3>
+                                    <p>Benvenuta Sofia, tantissimi auguri a tutta la famiglia Mura</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src="holder.js/800x300?text= &bg=cc6699&fg=ffffff"
                                 alt="Marco"
                                 />
                                 <Carousel.Caption>
@@ -71,6 +82,7 @@ export class BootstrapCarousel extends Component {
                                 />
                                 <Carousel.Caption>
                                     <h3>Alessandro Privitera</h3>
+                                    <p></p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -80,7 +92,8 @@ export class BootstrapCarousel extends Component {
                                 alt="Michele"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Michele Madeddu</h3>
+                                    <h3>Il Porno Attore</h3>
+                                    <p>Benvenuta Sofia, tantissimi auguri!</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -91,6 +104,7 @@ export class BootstrapCarousel extends Component {
                                 />
                                 <Carousel.Caption>
                                     <h3>Fabio Cannas</h3>
+                                    <p></p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                     </Carousel>
