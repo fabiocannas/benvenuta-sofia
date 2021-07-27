@@ -14,7 +14,7 @@ export class BootstrapCarousel extends Component {
                                 alt="Ivan"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Ivan Satta</h3>
+                                    <h3>Ivan</h3>
                                     <p>Tanti Auguri e Benvenuta Sofia</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -25,7 +25,7 @@ export class BootstrapCarousel extends Component {
                                 alt="Lavinia"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Lavinia Cottu</h3>
+                                    <h3>Lavinia</h3>
                                     <p>Benvenuta Sofia ❤️</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -36,7 +36,7 @@ export class BootstrapCarousel extends Component {
                                 alt="Maurizio"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Maurizio Ardu</h3>
+                                    <h3>Maurizio</h3>
                                     <p>Auguri Nenno, un figlio non è servito a farti mettere un po' di sale in zucca, magari adesso. . . no scusa, lo so, rimarrai scemo, non c'è speranza. Tanti auguri a te e a chi ti sopporta</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -47,15 +47,15 @@ export class BootstrapCarousel extends Component {
                                 alt="Giulia"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Giulia Pau</h3>
-                                    <p>Benvenuta Sofia, tantissimi auguri a tutta la famiglia Mura!</p>
+                                    <h3>Giulia</h3>
+                                    <p>Benvenuta Sofia, tantissimi auguri a tutta la famiglia Mura</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className="d-block w-100"
                                 src="holder.js/800x300?text= &bg=cc6699&fg=ffffff"
-                                alt="Marco"
+                                alt="Marco Vacca"
                                 />
                                 <Carousel.Caption>
                                     <h3>Marco Vacca</h3>
@@ -69,7 +69,7 @@ export class BootstrapCarousel extends Component {
                                 alt="Enrico"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Enrico Corona</h3>
+                                    <h3>Enrico</h3>
                                     <p>Ceeh volevo scrivere qualcosa di spiritoso ma ha già scritto tutto Maurizio Ardu :D Vabbè mi rimane solo da farti gli auguri Albe!!!</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -80,8 +80,19 @@ export class BootstrapCarousel extends Component {
                                 alt="Alessandro"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Alessandro Privitera</h3>
-                                    <p></p>
+                                    <h3>Alessandro</h3>
+                                    <p>Benvenuta Sofia!!!</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src="holder.js/800x300?text= &bg=cc6699&fg=ffffff"
+                                alt="Marco Montalto"
+                                />
+                                <Carousel.Caption>
+                                    <h3>Marco Montalto</h3>
+                                    <p>Benvenuta Sofia, tantissimi auguri!</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -102,8 +113,8 @@ export class BootstrapCarousel extends Component {
                                 alt="Fabio"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Fabio Cannas</h3>
-                                    <p></p>
+                                    <h3>Fabio e Susanna</h3>
+                                    <p>I nostri migliori auguri alla famiglia Mura ❤️</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                     </Carousel>
