@@ -4,7 +4,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import BootstrapCarousel from '../components/bootstrapCarousel'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Holderjs from "holderjs"
 
 const IndexPage = () => (
   
