@@ -1,7 +1,6 @@
 import React, { Component } from 'react'  
 import 'bootstrap/dist/css/bootstrap.css'
 import Carousel from 'react-bootstrap/Carousel'
-import Holderjs from 'holderjs'
 
 export class BootstrapCarousel extends Component {  
         render() { 
