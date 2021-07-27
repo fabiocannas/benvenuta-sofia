@@ -49,7 +49,7 @@ export class BootstrapCarousel extends Component {
                                 />
                                 <Carousel.Caption>
                                     <h3>Giulia Pau</h3>
-                                    <p>Benvenuta Sofia, tantissimi auguri a tutta la famiglia Mura</p>
+                                    <p>Benvenuta Sofia, tantissimi auguri a tutta la famiglia Mura!</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
