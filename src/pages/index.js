@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import BootstrapCarousel from '../components/bootstrapCarousel'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Holderjs from "holderjs"
 
 const IndexPage = () => (
   
@@ -14,7 +15,7 @@ const IndexPage = () => (
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossOrigin="anonymous"
     />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.8/holder.min.js" integrity="sha512-O6R6IBONpEcZVYJAmSC+20vdsM07uFuGjFf0n/Zthm8sOFW+lAq/OK1WOL8vk93GBDxtMIy6ocbj6lduyeLuqQ==" crossOrigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.8/holder.min.js" integrity="sha512-O6R6IBONpEcZVYJAmSC+20vdsM07uFuGjFf0n/Zthm8sOFW+lAq/OK1WOL8vk93GBDxtMIy6ocbj6lduyeLuqQ==" crossOrigin="anonymous" referrerPolicy="no-referrer"></script>
     <Seo title="Home" />
     <StaticImage
       src="../images/benvenuta-sofia.jpeg"
